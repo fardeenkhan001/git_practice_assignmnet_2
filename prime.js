@@ -3,6 +3,7 @@ function prime(number){
 	for(let i=0;i<=number;i++){
 		if(number%i==0){
 		counter++;
+
 		}
 	}
 	if(counter==2){
